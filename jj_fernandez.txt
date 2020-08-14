@@ -7,7 +7,7 @@ public class Main {
 		try {
 			Loggin frame = new Loggin();
 			frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-			frame.setResizable(false);
+			frame.setVisible(false);
 			frame.setVisible(true);
 			frame.setLocationRelativeTo(null);
 		}catch (Exception e) {
