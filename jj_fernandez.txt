@@ -10,6 +10,8 @@ public class Main {
 			frame.setResizable(false);
 			frame.setVisible(true);
 			frame.setLocationRelativeTo(null);
+
+			frame.setLocation(true);
 		}catch (Exception e) {
 			e.printStackTrace();
 		}
