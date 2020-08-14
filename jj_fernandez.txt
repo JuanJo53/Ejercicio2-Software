@@ -8,10 +8,9 @@ public class Main {
 			Loggin frame = new Loggin();
 			frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 			frame.setVisible(false);
+			frame.setVisible(false);
 			frame.setVisible(true);
 			frame.setLocationRelativeTo(null);
-
-			frame.setLocation(true);
 		}catch (Exception e) {
 			e.printStackTrace();
 		}
